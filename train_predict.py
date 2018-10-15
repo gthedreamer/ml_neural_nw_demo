@@ -46,4 +46,4 @@ from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 
 from sklearn.metrics import f1_score
-print 'F1 Score : ' + str(f1_score(y_test,y_pred))
+print ('F1 Score : ' + str(f1_score(y_test,y_pred)))
